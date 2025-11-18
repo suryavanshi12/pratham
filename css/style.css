@@ -273,7 +273,7 @@ select {
   border: none;
   color: #fff;
   font-weight: 500;
-  cursor: pointer; 
+  cursor: pointer;
   border-radius: 10px;
   font-size: 16px;
   transition: 0.3s ease;
@@ -5701,8 +5701,10 @@ span {
   from {
     bottom: -200px;
   }
+
   to {
-    bottom: 5px;   /* yaha control karna bottom se kitna gap chahiye */
+    bottom: 5px;
+    /* yaha control karna bottom se kitna gap chahiye */
   }
 }
 
@@ -7118,6 +7120,19 @@ span {
   .pratham-split-banner {
     flex-direction: column;
     height: auto;
+  }
+
+  .top-title-header {
+    padding: 20px;
+  }
+
+  .top-title-header h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .highlight-number {
+    font-size: 40px;
   }
 
   .split-item {
