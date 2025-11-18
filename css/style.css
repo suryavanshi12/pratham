@@ -2677,6 +2677,7 @@ span {
 @media (max-width: 1199px) {
   .nano-about-wrapper .nano-about-image {
     max-width: initial;
+    display: none;
   }
 }
 
