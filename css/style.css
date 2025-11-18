@@ -7350,11 +7350,37 @@ span {
   .nano-cta-new-wrapper h2 {
     font-size: 38px;
   }
+
+  .top-title-header {
+    padding: 20px;
+  }
+
+  .top-title-header h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .highlight-number {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 470px) {
   .nano-cta-new-wrapper h2 {
     font-size: 32px;
+  }
+
+  .top-title-header {
+    padding: 20px;
+  }
+
+  .top-title-header h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .highlight-number {
+    font-size: 40px;
   }
 }
 
