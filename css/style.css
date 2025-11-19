@@ -1312,7 +1312,7 @@ span {
 }
 
 .header-main .header-right {
-  gap: 30px;
+  gap: 10px;
 }
 
 @media (max-width: 1399px) {
@@ -1515,11 +1515,38 @@ span {
   gap: 100px;
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 55px;
+  height: 55px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 99999;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float img {
+  width: 30px;
+  height: 30px;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+
 @media (max-width: 1600px) {
   .header-1 .header-right-items {
-    gap: 0;
+    gap: 20px;
   }
 }
+
 @media (max-width: 1196px) {
   .header-1 .header-right-items {
     gap: 10px;
@@ -9148,6 +9175,8 @@ span {
 
 .section-title-area .nav .nav-item .nav-link.active {
   color: var(--header);
+  background: var(--bg);
+  border-radius: 5px;
 }
 
 .center {
