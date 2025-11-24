@@ -5474,104 +5474,102 @@ span {
 }
 
 /* 02.7 Event */
-.nano-event-details-area .nano-image img {
+.nano-image img {
   width: 100%;
   height: 100%;
   border-radius: 18px;
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content {
+.nano-event-details-wrapper .details-content {
   margin-top: 30px;
 }
 
 @media (max-width: 575px) {
-  .nano-event-details-area .nano-event-details-wrapper .details-content {
+  .nano-event-details-wrapper .details-content {
     margin-top: 20px;
   }
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content h2 {
+.nano-event-details-wrapper .details-content h2 {
   font-weight: 600;
   font-size: 36px;
 }
 
 @media (max-width: 767px) {
-  .nano-event-details-area .nano-event-details-wrapper .details-content h2 {
+  .nano-event-details-wrapper .details-content h2 {
     font-size: 30px;
   }
 }
 
 @media (max-width: 575px) {
-  .nano-event-details-area .nano-event-details-wrapper .details-content h2 {
+  .nano-event-details-wrapper .details-content h2 {
     font-size: 26px;
   }
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content .thumb img {
+.nano-event-details-wrapper .details-content .thumb img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content .offer-list {
+.nano-event-details-wrapper .details-content .offer-list {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content .offer-list li i {
+.nano-event-details-wrapper .details-content .offer-list li i {
   color: var(--theme);
   margin-right: 5px;
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content .offer-list li:not(:last-child) {
+.nano-event-details-wrapper .details-content .offer-list li:not(:last-child) {
   margin-bottom: 15px;
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content .location {
+.nano-event-details-wrapper .details-content .location {
   display: flex;
   align-items: center;
   gap: 30px;
   margin-top: 20px;
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content .location li i {
+.nano-event-details-wrapper .details-content .location li i {
   color: var(--theme);
   margin-right: 5px;
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content .location li a {
+.nano-event-details-wrapper .details-content .location li a {
   color: var(--text);
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content .map-items {
+.nano-event-details-wrapper .details-content .map-items {
   margin-top: 40px;
 }
 
-.nano-event-details-area .nano-event-details-wrapper .details-content .map-items iframe {
+.nano-event-details-wrapper .details-content .map-items iframe {
   width: 100%;
   height: 450px;
 }
 
-.nano-event-details-area .event-details-information {
+.event-details-information {
   background-color: #F2F4F7;
-  padding: 40px 35px;
+  padding: 30px 25px;
   border-radius: 18px;
-  margin-top: 40px;
-  margin-left: 30px;
 }
 
 @media (max-width: 1399px) {
-  .nano-event-details-area .event-details-information {
+  .event-details-information {
     margin-left: 0;
   }
 }
 
-.nano-event-details-area .event-details-information .information-list {
+.event-details-information .information-list {
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-.nano-event-details-area .event-details-information .information-list li {
+.event-details-information .information-list li {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -5579,32 +5577,32 @@ span {
   border-bottom: 1px solid var(--border);
 }
 
-.nano-event-details-area .event-details-information .information-list li span {
+.event-details-information .information-list li span {
   font-size: 16px;
   color: var(--text);
   font-weight: 400;
 }
 
-.nano-event-details-area .event-details-information .information-list li span i {
+.event-details-information .information-list li span i {
   margin-right: 10px;
 }
 
-.nano-event-details-area .event-details-information .information-list li .text {
+.event-details-information .information-list li .text {
   font-weight: 500;
   color: var(--header);
   text-align: right;
   display: inline-block;
 }
 
-.nano-event-details-area .event-details-information .information-list li .text.color-2 {
+.event-details-information .information-list li .text.color-2 {
   color: var(--theme);
 }
 
-.nano-event-details-area .event-details-information .information-list li .text.color-3 {
+.event-details-information .information-list li .text.color-3 {
   color: var(--theme);
 }
 
-.nano-event-details-area .event-details-information .theme-btn {
+.event-details-information .theme-btn {
   width: 100%;
   background-color: var(--theme);
   color: var(--white);
@@ -5613,16 +5611,16 @@ span {
   border-radius: 30px;
 }
 
-.nano-event-details-area .event-details-information .theme-btn::before,
-.nano-event-details-area .event-details-information .theme-btn::after {
+.event-details-information .theme-btn::before,
+.event-details-information .theme-btn::after {
   display: none;
 }
 
-.nano-event-details-area .event-details-information .theme-btn:hover {
+.event-details-information .theme-btn:hover {
   background-color: var(--header);
 }
 
-.nano-event-details-area .event-details-information .coming-soon-timer {
+.event-details-information .coming-soon-timer {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -5632,13 +5630,13 @@ span {
 }
 
 @media (max-width: 1399px) {
-  .nano-event-details-area .event-details-information .coming-soon-timer {
+  .event-details-information .coming-soon-timer {
     flex-wrap: wrap;
     gap: 20px;
   }
 }
 
-.nano-event-details-area .event-details-information .coming-soon-timer .timer-content h3 {
+.event-details-information .coming-soon-timer .timer-content h3 {
   font-size: 22px;
   font-weight: 700;
   color: var(--header);
@@ -5651,19 +5649,19 @@ span {
   text-align: center;
 }
 
-.nano-event-details-area .event-details-information .coming-soon-timer .timer-content h3.bg-2 span {
+.event-details-information .coming-soon-timer .timer-content h3.bg-2 span {
   background-color: #C3F499;
 }
 
-.nano-event-details-area .event-details-information .coming-soon-timer .timer-content h3.bg-3 span {
+.event-details-information .coming-soon-timer .timer-content h3.bg-3 span {
   background-color: #00E2C5;
 }
 
-.nano-event-details-area .event-details-information .coming-soon-timer .timer-content h3.bg-4 span {
+.event-details-information .coming-soon-timer .timer-content h3.bg-4 span {
   background-color: #66FFFF;
 }
 
-.nano-event-details-area .event-details-information .coming-soon-timer .timer-content p {
+.event-details-information .coming-soon-timer .timer-content p {
   font-weight: 600;
   font-size: 18px;
   color: var(--header);
@@ -5671,14 +5669,14 @@ span {
   text-align: center;
 }
 
-.nano-event-details-area .event-details-information .share-btn {
+.event-details-information .share-btn {
   font-size: 16px;
   font-weight: 600;
   color: var(--theme);
   display: inline-block;
 }
 
-.nano-event-details-area .event-details-information .share-btn i {
+.event-details-information .share-btn i {
   margin-right: 5px;
 }
 
